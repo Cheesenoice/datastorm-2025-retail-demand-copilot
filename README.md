@@ -40,7 +40,7 @@ Do not commit raw datasets to GitHub. Download from official sources below.
 
 ### Report and Slides (Placeholders)
 
-- Full report PDF: [Report link here](https://drive.google.com/file/d/1Erbkixa85-oAl6wC-McPuUcKH-QYClPe/view?usp=sharing)
+- Full report PDF: [Report link here](https://drive.google.com/file/d/1fjTkg5gB60hA1NxoNEI6WXrSlVjLnChU/view?usp=sharing)
 - Slide deck PDF: [Slides link here](https://drive.google.com/file/d/1AGshNYys_b0IybGVds5OlP_6HM7XOG7B/view?usp=sharing)
 
 ### Project Architecture

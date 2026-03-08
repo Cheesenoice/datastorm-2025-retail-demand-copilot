@@ -42,22 +42,6 @@ This solution helped Team Chu Beo reach the Top 20 in Vietnam Datathon 2025 - Da
 | ------------------------------------------------------- | --------------------------------------------------------- |
 | ![Receiving Award 1](github-assets/receiving-award.jpg) | ![Receiving Award 2](github-assets/receiving-award-2.png) |
 
-### Project Architecture + Prescriptive Logic
-
-| System Architecture                                    | Prescriptive Decision Flow                                    |
-| ------------------------------------------------------ | ------------------------------------------------------------- |
-| ![System Architecture](github-assets/architecture.png) | ![Prescriptive Decision Flow](github-assets/prescriptive.png) |
-
-### Latent Demand Recovery + Holiday Logic
-
-| Latent Demand Recovery Cases                                     | Holiday-Aware Demand and Action Dashboard                               |
-| ---------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![Latent Demand Recovery Cases](github-assets/latent-demand.png) | ![Holiday-Aware Demand and Action Dashboard](github-assets/holiday.png) |
-
-### Streamlit Dashboard Preview
-
-![RetailDemand Copilot Dashboard](github-assets/dashboard.png)
-
 ## 4. Repository Structure
 
 ```text
@@ -84,6 +68,12 @@ datastorm_round_1/
 ```
 
 ## 5. End-to-End Pipeline
+
+### Pipeline Overview (System + Prescriptive)
+
+| System Architecture | Prescriptive Decision Flow |
+| --- | --- |
+| ![System Architecture](github-assets/architecture.png) | ![Prescriptive Decision Flow](github-assets/prescriptive.png) |
 
 1. FreshRetailNet EDA
 
@@ -117,9 +107,19 @@ datastorm_round_1/
   - High demand -> increase inventory.
   - Low demand -> discount.
 
+### Visuals for Steps 2-5 (Latent Recovery + Holiday-Aware Decisions)
+
+| Latent Demand Recovery Cases | Holiday-Aware Demand and Action Dashboard |
+| --- | --- |
+| ![Latent Demand Recovery Cases](github-assets/latent-demand.png) | ![Holiday-Aware Demand and Action Dashboard](github-assets/holiday.png) |
+
 6. Dashboard Layer
 
 - Notebook dashboard and Streamlit app workflow for interactive exploration.
+
+### Step 6 Output: Streamlit Dashboard Preview
+
+![RetailDemand Copilot Dashboard](github-assets/dashboard.png)
 
 ## 6. Tech Stack
 

@@ -4,6 +4,17 @@ AI project for sale demand forecasting and prescriptive inventory actions, built
 
 This repository is prepared as a portfolio project for data science and machine learning job applications.
 
+## Demo and Assets
+
+### YouTube Demo (Placeholder)
+
+- Demo video: [RetailDemand Copilot | Dự báo nhu cầu bán lẻ + Prescriptive Engine](https://youtu.be/pHg7bgbfDEI)
+
+### Report and Slides (Placeholders)
+
+- Full report PDF: [Report link here](https://drive.google.com/file/d/1fjTkg5gB60hA1NxoNEI6WXrSlVjLnChU/view?usp=sharing)
+- Slide deck PDF: [Slides link here](https://drive.google.com/file/d/1AGshNYys_b0IybGVds5OlP_6HM7XOG7B/view?usp=sharing)
+
 ## 1. Project Overview
 
 Retailers often under-estimate true demand when products are out of stock. This project solves that problem by combining:
@@ -27,31 +38,20 @@ This solution helped Team Chu Beo reach the Top 20 in Vietnam Datathon 2025 - Da
 
 - Official post: https://www.facebook.com/share/p/1PfdwTtG6q/
 
-| Receiving Award - Photo 1 | Receiving Award - Photo 2 |
-| --- | --- |
+| Receiving Award - Photo 1                               | Receiving Award - Photo 2                                 |
+| ------------------------------------------------------- | --------------------------------------------------------- |
 | ![Receiving Award 1](github-assets/receiving-award.jpg) | ![Receiving Award 2](github-assets/receiving-award-2.png) |
-
-## Demo and Assets
-
-### YouTube Demo (Placeholder)
-
-- Demo video: [RetailDemand Copilot | Dự báo nhu cầu bán lẻ + Prescriptive Engine](https://youtu.be/pHg7bgbfDEI)
-
-### Report and Slides (Placeholders)
-
-- Full report PDF: [Report link here](https://drive.google.com/file/d/1fjTkg5gB60hA1NxoNEI6WXrSlVjLnChU/view?usp=sharing)
-- Slide deck PDF: [Slides link here](https://drive.google.com/file/d/1AGshNYys_b0IybGVds5OlP_6HM7XOG7B/view?usp=sharing)
 
 ### Project Architecture + Prescriptive Logic
 
-| System Architecture | Prescriptive Decision Flow |
-| --- | --- |
+| System Architecture                                    | Prescriptive Decision Flow                                    |
+| ------------------------------------------------------ | ------------------------------------------------------------- |
 | ![System Architecture](github-assets/architecture.png) | ![Prescriptive Decision Flow](github-assets/prescriptive.png) |
 
 ### Latent Demand Recovery + Holiday Logic
 
-| Latent Demand Recovery Cases | Holiday-Aware Demand and Action Dashboard |
-| --- | --- |
+| Latent Demand Recovery Cases                                     | Holiday-Aware Demand and Action Dashboard                               |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ![Latent Demand Recovery Cases](github-assets/latent-demand.png) | ![Holiday-Aware Demand and Action Dashboard](github-assets/holiday.png) |
 
 ### Streamlit Dashboard Preview

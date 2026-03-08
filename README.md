@@ -19,18 +19,17 @@ Retailers often under-estimate true demand when products are out of stock. This 
 - Support inventory decisions with explainable rules.
 - Integrate holiday effects for Vietnam market context.
 
-## 3. Datasets Used
+## Competition Achievement
 
-Do not commit raw datasets to GitHub. Download from official sources below.
+This solution helped Team Chu Beo reach the Top 20 in Vietnam Datathon 2025 - Datastorm.
 
-- FreshRetailNet-50K (main dataset, censored demand benchmark)
-  - Hugging Face: https://huggingface.co/datasets/Dingdong-Inc/FreshRetailNet-50K
-  - Paper: https://arxiv.org/abs/2505.16319
-  - GitHub baseline: https://github.com/Dingdong-Inc/frn-50k-baseline
-- Online Retail (UCI)
-  - UCI page: https://archive.ics.uci.edu/dataset/352/online+retail
-- Walmart Sales Forecast (optional benchmark and feature ideas)
-  - Kaggle: https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast
+### Award Evidence
+
+- Official post: https://www.facebook.com/share/p/1PfdwTtG6q/
+
+| Receiving Award - Photo 1 | Receiving Award - Photo 2 |
+| --- | --- |
+| ![Receiving Award 1](github-assets/receiving-award.jpg) | ![Receiving Award 2](github-assets/receiving-award-2.png) |
 
 ## Demo and Assets
 
@@ -43,19 +42,17 @@ Do not commit raw datasets to GitHub. Download from official sources below.
 - Full report PDF: [Report link here](https://drive.google.com/file/d/1fjTkg5gB60hA1NxoNEI6WXrSlVjLnChU/view?usp=sharing)
 - Slide deck PDF: [Slides link here](https://drive.google.com/file/d/1AGshNYys_b0IybGVds5OlP_6HM7XOG7B/view?usp=sharing)
 
-### Project Architecture
+### Project Architecture + Prescriptive Logic
 
-![System Architecture](github-assets/architecture.png)
+| System Architecture | Prescriptive Decision Flow |
+| --- | --- |
+| ![System Architecture](github-assets/architecture.png) | ![Prescriptive Decision Flow](github-assets/prescriptive.png) |
 
-### Latent Demand Recovery Examples
+### Latent Demand Recovery + Holiday Logic
 
-![Latent Demand Recovery Cases](github-assets/latent-demand.png)
-
-### Holiday + Prescriptive Logic
-
-![Holiday-Aware Demand and Action Dashboard](github-assets/holiday.png)
-
-![Prescriptive Decision Flow](github-assets/prescriptive.png)
+| Latent Demand Recovery Cases | Holiday-Aware Demand and Action Dashboard |
+| --- | --- |
+| ![Latent Demand Recovery Cases](github-assets/latent-demand.png) | ![Holiday-Aware Demand and Action Dashboard](github-assets/holiday.png) |
 
 ### Streamlit Dashboard Preview
 
@@ -233,7 +230,20 @@ If you are a recruiter or hiring manager, I can provide:
 - model design rationale,
 - and extension plan for production-grade deployment.
 
-## 12. Data Governance (Important)
+## 12. Datasets Used
+
+Do not commit raw datasets to GitHub. Download from official sources below.
+
+- FreshRetailNet-50K (main dataset, censored demand benchmark)
+  - Hugging Face: https://huggingface.co/datasets/Dingdong-Inc/FreshRetailNet-50K
+  - Paper: https://arxiv.org/abs/2505.16319
+  - GitHub baseline: https://github.com/Dingdong-Inc/frn-50k-baseline
+- Online Retail (UCI)
+  - UCI page: https://archive.ics.uci.edu/dataset/352/online+retail
+- Walmart Sales Forecast (optional benchmark and feature ideas)
+  - Kaggle: https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast
+
+## 13. Data Governance (Important)
 
 - Raw data must stay local and should not be uploaded to GitHub.
 - `.gitignore` is configured to ignore dataset/model directories.

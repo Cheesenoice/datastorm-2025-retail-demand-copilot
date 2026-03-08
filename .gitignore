@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Jupyter
+*.nbconvert.ipynb
+
+# Local logs and temp
+*.log
+*.tmp
+*.temp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Model and binary artifacts
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Compressed/raw exports
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Data directories (keep structure, ignore raw data)
+FreshRetailNet-50K-Dataset/data/**
+Online-Retail-Dataset/data/**
+
+# Keep placeholder docs if added later
+!FreshRetailNet-50K-Dataset/data/.gitkeep
+!Online-Retail-Dataset/data/.gitkeep
